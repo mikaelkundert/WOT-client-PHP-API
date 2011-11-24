@@ -118,8 +118,8 @@ class MyWOTCore {
     // Determine URL parts
     $url = array(
       'scheme' => 'http',
-      'host' => MyWOT::API_HOST,
-      'path' => MyWOT::API_VERSION . '/public_link_json',
+      'host' => MyWOTCore::API_HOST,
+      'path' => MyWOTCore::API_VERSION . '/public_link_json',
       'query' => http_build_query($params),
     );
     

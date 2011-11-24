@@ -12,7 +12,7 @@ class MyWOTClient extends MyWOTCore {
   const COMPONENT_PRIVACY             = 2;
   const COMPONENT_CHILD_SAFETY        = 3;
   
-  private $_defaultComponent = MyWOT::COMPONENT_ALL;
+  private $_defaultComponent = MyWOTCore::COMPONENT_ALL;
   
   // @todo: getAll($component)
   // @todo: getReputation($host, $component)
